@@ -1,0 +1,45 @@
+body
+{
+    
+}
+.start
+{
+background-color: lightgray;
+    height: 100% !important;
+    width: 100%;
+    text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+ 
+  margin: auto auto;
+  border: 12px solid black;
+    
+}
+.quiz1
+{
+    text-align: left;
+    background-image: url(2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.active
+{
+    background-color: blue;
+}
+.button1
+{
+    font-size: large;
+ color: blue;
+ height: 60px;
+ width: 120px;
+ background-color:greenyellow;
+    border-radius: 40%;
+}
+.button1:hover
+{
+    color: white;
+    background-color: blue;
+}
